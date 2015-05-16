@@ -1,0 +1,10 @@
+Yönetim Kurulu Listesi Bu Alana Gelecek 
+ve
+1->üye ad soyad
+2->üye ad soyad
+3->üye ad soyad
+4->üye ad soyad
+5->üye ad soyad
+6->üye ad soyad
+7->üye ad soyad
+8->üye ad soyad

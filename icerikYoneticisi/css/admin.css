@@ -1,0 +1,267 @@
+@charset "utf-8";
+body {
+	background-color: #DDDDDD;
+}
+
+.zemin {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgb(183,183,183);
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: auto;
+	width: 1000px;
+	border-bottom-left-radius: 150;
+	border-radius: 0px;
+}
+.zemin .banner {
+	height: 90px;
+	width: 100%;
+	background-color: #FF9933;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(238,238,238);
+	font-weight: normal;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(0,0,0);
+}
+
+
+.zemin .menu {
+	background-color: rgb(192,192,192);
+	height: 40px;
+	width: auto;
+	border: 1px solid rgb(255,0,51);
+}
+.zemin .header-menu ul .cikis {
+	color: rgb(238,0,0);
+	text-decoration: underline;
+}
+
+
+.zemin .icerik {
+	background-color: rgb(255,255,204);
+	height: auto;
+	width: 100%;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(0,0,0);
+	margin-top: auto;
+}
+.zemin .icerik hr {
+	color: rgb(0,0,0);
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: rgb(0,0,0);
+	border-right-color: rgb(0,0,0);
+	border-bottom-color: rgb(0,0,0);
+	border-left-color: rgb(0,0,0);
+}
+.zemin .icerik a {
+	background-color: rgb(255,255,204);
+	color: rgb(255,0,0);
+	font-size: 18px;
+}
+.zemin .icerik table tr td input
+{
+	border:solid 1px rgb(0,0,0);
+	font-size: 18px;
+}
+.zemin .icerik table tr td input:hover
+{
+	color:rgb(255,0,0);
+	
+}
+.zemin .icerik a:hover
+{
+	text-decoration: underline;
+}
+.zemin .icerik fieldset  
+{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: rgb(102,102,102);
+	border-right-color: rgb(102,102,102);
+	border-bottom-color: rgb(102,102,102);
+	border-left-color: rgb(102,102,102);
+	
+}
+.zemin .icerik fieldset table tr td ,th
+{
+	border: 1px solid rgb(0,0,0);
+	font-size: 14px;
+}
+.zemin .icerik fieldset table tr td 
+{
+	background-color: rgb(255,255,204);
+	font-size: 16px;
+}
+.zemin .icerik fieldset table tr:hover
+td{
+	background-color: rgb(230,58,0);
+}
+
+.zemin .icerik fieldset legend 
+{
+	border: 1px solid rgb(102,102,102);
+	background-color: rgb(255,153,51);
+}
+.zemin .icerik_giris {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 150px;
+	border-radius: 0px;
+	-moz-background-inline-policy: bounding-box;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: rgb(238,238,238);
+}
+.zemin .icerik_giris .giris form table tr td input {
+	border: 1px solid rgb(34,34,34);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.zemin .icerik_giris .giris form table {
+	border: 1px double rgb(0,0,0);
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: rgb(238,238,238);
+}
+.zemin .footer {
+	background-color: rgb(251,251,251);
+	height: 30px;
+	width: auto;
+}
+*{margin: 0;    padding: 0;    border: 0;    outline: 0;    list-style:none; text-decoration:none;}
+.header-menu{
+	width: 742px;
+	height: 35px;
+	float: left;
+	background: gray;
+	position: relative;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+    }
+
+.header-menu a{
+    width:auto;
+    height:35px;
+    float:left;
+    font-size:12px;
+    color:white;
+    padding-left:18px;
+    padding-right:18px;
+    border-right:solid 1px white;
+    line-height:35px;
+    }
+    
+.header-menu a:hover{
+    background:url(img/cizgi.png) right no-repeat #f57e20;
+    }
+
+
+
+.header-menu  li{
+    width:auto;
+    height:46px;
+    float:left;
+    position:relative;
+    }
+
+.header-menu  ul li ul{
+    width:180px;
+    height:auto;
+    float:left;
+    position:absolute;
+    background:#6c6b6b;
+    top:35px;
+    left:1px;
+    z-index:1;
+    display:none;
+    }
+
+.header-menu  ul li ul a{
+    width:163px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    padding:0 0 0 17px;
+    border-top: dashed 1px gray;
+    background:none;
+    }
+
+.header-menu  ul li ul li {
+    height:30px;
+    line-height:30px;
+    }
+
+
+
+.header-menu  li:hover >  ul{
+	display: block;
+	text-decoration: underline;
+    }
+
+
+
+.header-menu  ul li ul li ul{
+    width:180px;
+    height:auto;
+    float:left;
+    position:absolute;
+    background:#6c6b6b;
+    top:0px;
+    left:180px;
+    z-index:1;
+    display:none;
+    }
+.zemin .icerik_giris .giris form table tr td input {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: rgb(17,17,17);
+}
+.zemin .icerik_giris .giris form table tr td .kullaniciAdi {
+	font-size: 16px;
+	color: rgb(0,136,0);
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.zemin .icerik_giris .giris form table tr td #buton {
+	background-color: rgb(204,204,204);
+}
+.zemin .icerik_giris .giris form table tr td #buton:hover {
+	background-color: rgb(255,102,0);
+	text-decoration:underline;
+}.zemin .icerik .sayfalama {
+	margin-left: 30%;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	height: auto;
+	width: auto;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.zemin .icerik .sayfalama a {
+	border: 1px solid rgb(236,197,96);
+	background-color: rgb(241,228,221);
+	color: rgb(51,51,51);
+	padding: 5px;
+}
+.zemin .icerik .sayfalama a:hover {
+	text-decoration: underline;
+	background-color: rgb(236,197,96);
+}
